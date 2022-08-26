@@ -55,7 +55,7 @@
         </v-col>
         <v-col cols="12" class="pt-0 mt-0">
           <div fluid class="items" v-if="items_view == 'card'">
-            <v-row dense class="overflow-y-auto" style="max-height: 67vh">
+            <v-row dense class="overflow-y-auto" style="max-height: 53vh">
               <v-col
                 v-for="(item, idx) in filtred_items"
                 :key="idx"
@@ -92,7 +92,7 @@
             </v-row>
           </div>
           <div fluid class="items" v-if="items_view == 'list'">
-            <div class="my-0 py-0 overflow-y-auto" style="max-height: 65vh">
+            <div class="my-0 py-0 overflow-y-auto" style="max-height: 53vh">
               <template>
                 <v-data-table
                   :headers="getItmesHeaders()"
