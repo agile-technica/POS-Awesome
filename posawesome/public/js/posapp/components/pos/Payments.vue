@@ -11,7 +11,7 @@
         top
         color="info"
       ></v-progress-linear>
-      <div class="overflow-y-auto px-2 pt-2" style="max-height: 75vh">
+      <div class="overflow-y-auto px-2 pt-2" style="max-height: 68vh">
         <v-row v-if="invoice_doc" class="px-1 py-0">
           <v-col cols="7">
             <v-text-field
